@@ -1,6 +1,6 @@
 package model;
 
-public class Carr implements Drivable{
+public class Car implements Drivable{
 
     @Override
     public void startDriving() {
