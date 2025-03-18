@@ -1,0 +1,5 @@
+Alice, Smith, Female, 25, 85.2
+Bob, Johnson, Male, 30, 72.5
+Emma, Brown, Female, 22, 90.1
+Michael, Williams, Male, 35, 78.6
+Nickolas, Wu, Male, 21, 62.0
