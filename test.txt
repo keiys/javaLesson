@@ -3,3 +3,5 @@ Bob, Johnson, Male, 30, 72.5
 Emma, Brown, Female, 22, 90.1
 Michael, Williams, Male, 35, 78.6
 Nickolas, Wu, Male, 21, 62.0
+Sorted by grade = Emma, Brown, 90.1/ Alice, Smith, 85.2/ Michael, Williams, 78.6/ Bob, Johnson, 72.5/ Nickolas, Wu, 62.0/ 
+Max =Emma, Brown, 90.1

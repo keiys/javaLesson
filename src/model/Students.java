@@ -1,5 +1,7 @@
 package model;
 
+import service.AgeExeption;
+
 public class Students {
 
     /**
@@ -11,6 +13,10 @@ public class Students {
     private String gender;
     private int age;
     private double grade;
+
+    public Students( ){
+
+    }
 
     public Students(String data) {
         String [] str = data.split(", ");
@@ -49,8 +55,12 @@ public class Students {
         return age;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setAge(int age) throws Exception {
+        if(age > 0){
+            this.age = age;
+        }else{
+            throw new AgeExeption("Age can not be negative or zero");
+        }
     }
 
     public double getGrade() {
